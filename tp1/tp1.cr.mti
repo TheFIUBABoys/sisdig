@@ -31,6 +31,17 @@ Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 
 -- Compiling entity testCont4BCD
 -- Compiling architecture test_Cont4BCD of testCont4BCD
 
+} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Mux
+-- Compiling architecture arq_Mux of Mux
+-- Compiling entity testMux
+-- Compiling architecture test_Mux of testMux
+
 } {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
@@ -61,6 +72,15 @@ Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 
 -- Compiling architecture arq_DispCtrl of DispCtrl
 -- Compiling entity testDispCtrl
 -- Compiling architecture test_DispCtrl of testDispCtrl
+
+} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DispSelect
+-- Compiling architecture arq_DispSelect of DispSelect
 
 } {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
