@@ -1,97 +1,4 @@
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 2 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 2 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 1 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 1 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 1 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 1 error. 
-# Compile of displayCtrl.vhd failed with 1 errors.
-# Compile of displayCtrl.vhd failed with 1 errors.
-# Compile of displayCtrl.vhd failed with 1 errors.
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 3 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 3 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 2 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 2 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd failed with 2 errors.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 2 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testdispctrl
+vsim -gui work.testdisplaycontroller
 # //  ModelSim PE Student Edition 10.2c Jul 18 2013 
 # //
 # //  Copyright 1991-2013 Mentor Graphics Corporation
@@ -105,620 +12,149 @@ vsim -gui work.testdispctrl
 # // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
-# vsim -gui work.testdispctrl 
+# vsim -gui work.testdisplaycontroller 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.testdispctrl(test_dispctrl)
-# Loading ieee.numeric_std(body)
-# Loading work.contbcd(arq_contbcd)
-# Loading work.cont4b(arq_cont4b)
-# Loading work.cont2b(arq_cont2b)
-# Loading work.ffd(ffd_arq)
-# Loading work.dispctrl(arq_dispctrl)
-add wave sim:/testdispctrl/*
-run
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdispctrl/inst_DispCtrl
-run
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-# ** Fatal: (vsim-3350) Generic "N" has not been given a value.
-#    Time: 0 ns  Iteration: 0  Instance: /testgenenable/inst_GenEnable File: C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd Line: 6
-# FATAL ERROR while loading design
-# Error loading design
-# Compile of GenEnable.vhd failed with 2 errors.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 1 failed with 2 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-# ** Fatal: (vsim-3350) Generic "N" has not been given a value.
-#    Time: 0 ns  Iteration: 0  Instance: /testgenenable/inst_GenEnable File: C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd Line: 6
-# FATAL ERROR while loading design
-# Error loading design
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-add wave sim:/testgenenable/*
-add wave -r /*
-add wave -r /*
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-add wave sim:/testgenenable/*
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-add wave sim:/testgenenable/*
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-restart
-# Loading work.testgenenable(test_genenable)
-# Loading work.genenable(arq_genenable)
-run
-run
-run
-run
-run
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-restart
-# Loading work.testgenenable(test_genenable)
-# Loading work.genenable(arq_genenable)
-run
-run
-run
-run
-run
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-# ** Fatal: (vsim-3350) Generic "max" has not been given a value.
-#    Time: 0 ns  Iteration: 0  Instance: /testgenenable/inst_GenEnable50M File: C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd Line: 6
-# FATAL ERROR while loading design
-# Error loading design
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-add wave sim:/testgenenable/*
-run
-run
-run
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# 8 compiles, 0 failed with no errors. 
-vsim -gui work.testgenenable
-# vsim -gui work.testgenenable 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testgenenable(test_genenable)
-# Loading ieee.numeric_std(body)
-# Loading work.genenable(arq_genenable)
-add wave sim:/testgenenable/*
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 3 errors.
-# 9 compiles, 1 failed with 3 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 7 errors.
-# 9 compiles, 1 failed with 7 errors. 
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 10 errors.
-# 9 compiles, 1 failed with 10 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# 9 compiles, 0 failed with no errors. 
-vsim -gui work.testmux
-# vsim -gui work.testmux 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testmux(test_mux)
-# Loading ieee.numeric_std(body)
-# Loading work.cont2b(arq_cont2b)
-# Loading work.ffd(ffd_arq)
-# Loading work.mux(arq_mux)
-# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
-#    Time: 0 ns  Iteration: 0  Root: /
-add wave sim:/testmux/*
-run
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-restart
-# Loading work.cont2b(arq_cont2b)
-# Loading work.ffd(ffd_arq)
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# 9 compiles, 0 failed with no errors. 
-run
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# 9 compiles, 0 failed with no errors. 
-vsim -gui work.testmux
-# vsim -gui work.testmux 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.testmux(test_mux)
-# Loading ieee.numeric_std(body)
-# Loading work.cont2b(arq_cont2b)
-# Loading work.ffd(ffd_arq)
-# Loading work.mux(arq_mux)
-# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
-#    Time: 0 ns  Iteration: 0  Root: /
-add wave sim:/testmux/*
-run
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testmux/inst_Mux
-run
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# 9 compiles, 0 failed with no errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd failed with 1 errors.
-# 10 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd failed with 21 errors.
-# 10 compiles, 1 failed with 21 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# 10 compiles, 0 failed with no errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# 10 compiles, 0 failed with no errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# Compile of DisplayController.vhd failed with 1 errors.
-# 11 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# Compile of DisplayController.vhd failed with 2 errors.
-# 11 compiles, 1 failed with 2 errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# Compile of DisplayController.vhd was successful.
-# 11 compiles, 0 failed with no errors. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# Compile of DisplayController.vhd failed with 1 errors.
-# 11 compiles, 1 failed with 1 error. 
-# Compile of GenEnable.vhd was successful.
-# Compile of board_top.vhd was successful.
-# Compile of cont2b.vhd was successful.
-# Compile of cont4b.vhd was successful.
-# Compile of cont4BCD.vhd was successful.
-# Compile of contBCD.vhd was successful.
-# Compile of displayCtrl.vhd was successful.
-# Compile of FFD.vhd was successful.
-# Compile of mux.vhd was successful.
-# Compile of DispSelect.vhd was successful.
-# Compile of DisplayController.vhd was successful.
-# 11 compiles, 0 failed with no errors. 
-vsim -gui work.displaycontroller
-# vsim -gui work.displaycontroller 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
+# Loading work.testdisplaycontroller(test_displaycontroller)
 # Loading ieee.numeric_std(body)
 # Loading work.displaycontroller(arq_displaycontroller)
-# ** Fatal: (vsim-3350) Generic "cant" has not been given a value.
-#    Time: 0 ns  Iteration: 0  Instance: /displaycontroller File: C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd Line: 6
-# FATAL ERROR while loading design
-# Error loading design
+# Loading work.genenable(arq_genenable)
+# Loading work.cont2b(arq_cont2b)
+# Loading work.ffd(ffd_arq)
+# Loading work.mux(arq_mux)
+# Loading work.dispselect(arq_dispselect)
+# Loading work.dispctrl(arq_dispctrl)
+add wave sim:/testdisplaycontroller/*
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+run
+run
+run
+run
+run
+run
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors. 
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd was successful.
+# 11 compiles, 0 failed with no errors. 
+vsim -gui work.testdisplaycontroller
+# vsim -gui work.testdisplaycontroller 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testdisplaycontroller(test_displaycontroller)
+# Loading ieee.numeric_std(body)
+# Loading work.displaycontroller(arq_displaycontroller)
+# Loading work.genenable(arq_genenable)
+# Loading work.cont2b(arq_cont2b)
+# Loading work.ffd(ffd_arq)
+# Loading work.mux(arq_mux)
+# Loading work.dispselect(arq_dispselect)
+# Loading work.dispctrl(arq_dispctrl)
+add wave sim:/testdisplaycontroller/*
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 # Compile of GenEnable.vhd was successful.
 # Compile of board_top.vhd was successful.
 # Compile of cont2b.vhd was successful.
@@ -795,53 +231,6 @@ run
 # Compile of DispSelect.vhd was successful.
 # Compile of DisplayController.vhd was successful.
 # 11 compiles, 0 failed with no errors. 
-add wave sim:/testdisplaycontroller/*
-restart
-# Loading work.testdisplaycontroller(test_displaycontroller)
-# Loading work.displaycontroller(arq_displaycontroller)
-# Loading work.genenable(arq_genenable)
-# Loading work.cont2b(arq_cont2b)
-# Loading work.ffd(ffd_arq)
-# Loading work.mux(arq_mux)
-# Loading work.dispselect(arq_dispselect)
-# Loading work.dispctrl(arq_dispctrl)
-run
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
 vsim -gui work.testdisplaycontroller
 # vsim -gui work.testdisplaycontroller 
 # Loading std.standard
@@ -894,6 +283,250 @@ run
 #    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
 # ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 #    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -r /*
+add wave sim:/testdisplaycontroller/instDC/instDispCtrl/*
+add wave -position insertpoint sim:/testdisplaycontroller/instDC/instDispSelect/*
+run
+restart
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+restart
+add wave -position insertpoint sim:/testdisplaycontroller/instDC/instMux/*
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+restart
+add wave sim:/testdisplaycontroller/instDC/instCont2b/*
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+run
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd was successful.
+# 11 compiles, 0 failed with no errors. 
+# Compile of DisplayController.vhd was successful.
+vsim -gui work.testdisplaycontroller
+# vsim -gui work.testdisplaycontroller 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testdisplaycontroller(test_displaycontroller)
+# Loading ieee.numeric_std(body)
+# Loading work.displaycontroller(arq_displaycontroller)
+# Loading work.genenable(arq_genenable)
+# Loading work.cont2b(arq_cont2b)
+# Loading work.ffd(ffd_arq)
+# Loading work.mux(arq_mux)
+# Loading work.dispselect(arq_dispselect)
+# Loading work.dispctrl(arq_dispctrl)
+add wave -position insertpoint sim:/testdisplaycontroller/instDC/instCont2b/*
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+run
+run
+run
+run
+add wave sim:/testdisplaycontroller/*
+restart
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testdisplaycontroller/instDC/instMux
+run
+run
+run
+run
+run
 run
 run
 run
