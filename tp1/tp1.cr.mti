@@ -1,15 +1,4 @@
-{C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity GenEnable
--- Compiling architecture arq_GenEnable of GenEnable
--- Compiling entity testGenEnable
--- Compiling architecture test_GenEnable of testGenEnable
-
-} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd}
+{C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -19,6 +8,17 @@ Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 
 -- Compiling architecture arq_Cont4BCD of Cont4BCD
 -- Compiling entity testCont4BCD
 -- Compiling architecture test_Cont4BCD of testCont4BCD
+
+} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity GenEnable
+-- Compiling architecture arq_GenEnable of GenEnable
+-- Compiling entity testGenEnable
+-- Compiling architecture test_GenEnable of testGenEnable
 
 } {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
@@ -31,18 +31,7 @@ Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 
 -- Compiling entity testCont4b
 -- Compiling architecture test_Cont4b of testCont4b
 
-} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity DisplayController
--- Compiling architecture arq_DisplayController of DisplayController
--- Compiling entity testDisplayController
--- Compiling architecture test_DisplayController of testDisplayController
-
-} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd}
+} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd} {1 {vcom -work work -2002 -explicit {C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\contBCD.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -53,7 +42,7 @@ Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 
 -- Compiling entity testContBCD
 -- Compiling architecture test_ContBCD of testContBCD
 
-} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd}
+} {} {}} {C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd} {1 {vcom -work work -2002 -explicit {C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\fpga.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
 -- Loading package STANDARD
 -- Loading package TEXTIO

@@ -80,8 +80,8 @@ begin
 	instDispCtrl:  	DispCtrl port map (selected_in,segm_t);
 	
 	selector <= selected_dsp;
-	a <= segm_t(0);b <= segm_t(1);c <= segm_t(2);d <= segm_t(3);
-	e <= segm_t(4);f <= segm_t(5);g <= segm_t(6);dp <= segm_t(7);
+	a <= segm_t(7);b <= segm_t(6);c <= segm_t(5);d <= segm_t(4);
+	e <= segm_t(3);f <= segm_t(2);g <= segm_t(1);dp <= segm_t(0);
 	
 end architecture arq_DisplayController;
 
@@ -119,6 +119,6 @@ begin
 	bcd2(3) <= '0';bcd2(2) <= '0';bcd2(1) <= '1';bcd2(0) <= '1';
 	bcd3(3) <= '0';bcd3(2) <= '1';bcd3(1) <= '0';bcd3(0) <= '0';
 	
-	instDC: DisplayController generic map(5) port map(ck_t,en,bcd0,bcd1,bcd2,bcd3,selected_dsp,seg(0),seg(1),seg(2),seg(3),seg(4),seg(5),seg(6),seg(7));
+	instDC: DisplayController generic map(5) port map(ck_t,en,bcd0,bcd1,bcd2,bcd3,selected_dsp,seg(7),seg(6),seg(5),seg(4),seg(3),seg(2),seg(1),seg(0));
 end; 
 

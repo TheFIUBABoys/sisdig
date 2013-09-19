@@ -537,3 +537,464 @@ run
 run
 run
 run
+# Compile of board_top.vhd was successful.
+# Compile of board_top.vhd was successful.
+vsim -gui work.testfpga
+# vsim -gui work.testfpga 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testfpga(test_fpga)
+# Loading ieee.numeric_std(body)
+# Loading work.fpga(arq_fpga)
+# Loading work.genenable(arq_genenable)
+# Loading work.cont4bcd(arq_cont4bcd)
+# Loading work.displaycontroller(arq_displaycontroller)
+# Loading work.cont2b(arq_cont2b)
+# Loading work.ffd(ffd_arq)
+# Loading work.mux(arq_mux)
+# Loading work.dispselect(arq_dispselect)
+# Loading work.dispctrl(arq_dispctrl)
+add wave sim:/testfpga/*
+add wave sim:/testfpga/instFPGA/inst_Cont4BCD/*
+# Compile of board_top.vhd was successful.
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/inst_Cont4BCD
+run
+run
+run
+# Compile of board_top.vhd was successful.
+run
+restart
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/inst_Cont4BCD
+run
+run
+run
+# Compile of board_top.vhd was successful.
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd was successful.
+# Compile of fpga.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+restart
+# Loading work.testfpga(test_fpga)
+# Loading work.fpga(arq_fpga)
+# Loading work.genenable(arq_genenable)
+# Loading work.cont4bcd(arq_cont4bcd)
+# Loading work.displaycontroller(arq_displaycontroller)
+# Loading work.cont2b(arq_cont2b)
+# Loading work.ffd(ffd_arq)
+# Loading work.mux(arq_mux)
+# Loading work.dispselect(arq_dispselect)
+# Loading work.dispctrl(arq_dispctrl)
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispCtrl
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instDispSelect/inst_Mux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/instDC/instMux
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testfpga/instFPGA/inst_Cont4BCD
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of fpga.vhd was successful.
+# Compile of cont4BCD.vhd failed with 2 errors.
+# Compile of cont4BCD.vhd failed with 2 errors.
+# Compile of cont4BCD.vhd failed with 2 errors.
+# Compile of cont4BCD.vhd failed with 1 errors.
+# Compile of cont4BCD.vhd failed with 5 errors.
+# Compile of cont4BCD.vhd failed with 2 errors.
+# Compile of cont4BCD.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+vsim -gui work.cont4bcd
+# vsim -gui work.cont4bcd 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bcd(arq_cont4bcd)
+add wave sim:/cont4bcd/*
+run
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /cont4bcd
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /cont4bcd
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /cont4bcd
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /cont4bcd
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -gui work.testcont4bcd
+# vsim -gui work.testcont4bcd 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testcont4bcd(test_cont4bcd)
+# Loading ieee.numeric_std(body)
+# Loading work.cont4bcd(arq_cont4bcd)
+add wave sim:/testcont4bcd/*
+run
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of cont4BCD.vhd was successful.
+restart
+# Loading work.testcont4bcd(test_cont4bcd)
+# Loading work.cont4bcd(arq_cont4bcd)
+run
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of cont4BCD.vhd was successful.
+restart
+# Loading work.testcont4bcd(test_cont4bcd)
+# Loading work.cont4bcd(arq_cont4bcd)
+run
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+# ** Error: (vsim-86) Arg Value -2147483648 is out of NATURAL range 0 to 2147483647.
+#    Time: 0 ns  Iteration: 0  Instance: /testcont4bcd/inst_Cont4BCD
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd was successful.
+# Compile of fpga.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd was successful.
+# Compile of fpga.vhd failed with 2 errors.
+# 12 compiles, 1 failed with 2 errors. 
+# Compile of GenEnable.vhd was successful.
+# Compile of board_top.vhd was successful.
+# Compile of cont2b.vhd was successful.
+# Compile of cont4b.vhd was successful.
+# Compile of cont4BCD.vhd was successful.
+# Compile of contBCD.vhd was successful.
+# Compile of displayCtrl.vhd was successful.
+# Compile of FFD.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of DispSelect.vhd was successful.
+# Compile of DisplayController.vhd was successful.
+# Compile of fpga.vhd was successful.
+# 12 compiles, 0 failed with no errors. 

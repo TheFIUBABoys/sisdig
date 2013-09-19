@@ -32,19 +32,19 @@ entity Board_Top is
         -------------------------------------------
         -- Xilinx/Digilent SPARTAN-3 Starter Kit --
         -------------------------------------------
-      attribute LOC of xtal_i        : signal is "T9"; -- fijate que con los atributos se asignan los pines de la FPGA a las entradas/salidas de la entidad.
+      attribute LOC of xtal_i        : signal is "B8"; -- fijate que con los atributos se asignan los pines de la FPGA a las entradas/salidas de la entidad.
 --      attribute LOC of leds_o        : signal is "P11 P12 N12 P13 N14 L12 P14 K12";
-      attribute LOC of buttons_i     : signal is "L14 L13 M14 M13";   
+      attribute LOC of buttons_i     : signal is "B18 D18 E18 H13";   
 --      attribute LOC of switches_i    : signal is "K13 K14 J13 J14 H13 H14 G12 F12";
-      attribute LOC of s3s_anodes_o     : signal is "E13 F14 G14 D14";
-      attribute LOC of s3s_segment_a_o  : signal is "E14";
-      attribute LOC of s3s_segment_b_o  : signal is "G13";
-      attribute LOC of s3s_segment_c_o  : signal is "N15";
-      attribute LOC of s3s_segment_d_o  : signal is "P15";
-      attribute LOC of s3s_segment_e_o  : signal is "R16";
-      attribute LOC of s3s_segment_f_o  : signal is "F13";
-      attribute LOC of s3s_segment_g_o  : signal is "N16";
-      attribute LOC of s3s_segment_dp_o : signal is "P16";
+      attribute LOC of s3s_anodes_o     : signal is "F15 C18 H17 F17";
+      attribute LOC of s3s_segment_a_o  : signal is "L18";
+      attribute LOC of s3s_segment_b_o  : signal is "F18";
+      attribute LOC of s3s_segment_c_o  : signal is "D17";
+      attribute LOC of s3s_segment_d_o  : signal is "D16";
+      attribute LOC of s3s_segment_e_o  : signal is "G14";
+      attribute LOC of s3s_segment_f_o  : signal is "J17";
+      attribute LOC of s3s_segment_g_o  : signal is "H14";
+      attribute LOC of s3s_segment_dp_o : signal is "C17";
 end entity Board_Top;
 
 
@@ -66,6 +66,6 @@ begin
 -- Ejemplo de asignacion de la entrada del cristal a una senial que defini como "clk_i".
 	clk_i <= xtal_i;     
 	-- 50000000 para que cuente segundos y 50000 para que la frecuencia de cambio de digito el display sea 1khz
-	instFPGA: FPGA generic map(50000000,50000) port map(clk_i,buttons_i(0),s3s_anodes_o,s3s_segment_a_o,s3s_segment_b_os3s_segment_c_o,s3s_segment_d_o,s3s_segment_e_o,s3s_segment_f_o,s3s_segment_g_o,s3s_segment_dp_o);
+	instFPGA: FPGA generic map(50000000,50000) port map(clk_i,buttons_i(0),s3s_anodes_o,s3s_segment_a_o,s3s_segment_b_o,s3s_segment_c_o,s3s_segment_d_o,s3s_segment_e_o,s3s_segment_f_o,s3s_segment_g_o,s3s_segment_dp_o);
 end architecture RTL; -- Entity: Board_Top
 

@@ -9,34 +9,34 @@ dC:/Program Files/Modeltech_pe_edu_10.2c/examples
 !i10e 25
 !i10f 100
 Eboard_top
-Z0 w1378400855
+Z0 w1379617717
 Z1 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
 Z2 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
 Z4 dC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1
-Z5 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/board_top.vhd
-Z6 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/board_top.vhd
+Z5 8C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\board_top.vhd
+Z6 FC:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\board_top.vhd
 l0
 L9
-V3QWi4=55P6LCGR_3fZK>01
+VW:8Rg2gfRPUC9g[NS[O162
 Z7 OP;C;10.2c;57
 32
-Z8 !s110 1379610829
-Z9 !s108 1379610829.634000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/board_top.vhd|
-Z11 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/board_top.vhd|
+Z8 !s110 1379622079
+Z9 !s108 1379622079.340000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\board_top.vhd|
+Z11 !s107 C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\board_top.vhd|
 Z12 o-work work -2002 -explicit -O0
 Z13 tExplicit 1
-!s100 h]iPIha4<Y9^W1Z;6S5@Q1
+!s100 H4K_jkKF0h0<C]l>1hfMN3
 !i10b 1
 Artl
 R1
 R2
 R3
-DEx4 work 9 board_top 0 22 3QWi4=55P6LCGR_3fZK>01
-l54
+DEx4 work 9 board_top 0 22 W:8Rg2gfRPUC9g[NS[O162
+l64
 L51
-V6n<4o5kWdZRM[g_OGbN1F1
+VTi[0ZD4GWZUBnlKimK6[I3
 R7
 32
 R8
@@ -45,7 +45,7 @@ R10
 R11
 R12
 R13
-!s100 `RH^=^i[B86B6jBe0S2`F3
+!s100 LU8]aD5Mkd>Bj<?hidOn[3
 !i10b 1
 Econt2b
 Z14 w1378400855
@@ -60,10 +60,10 @@ L5
 V41JnUlQl5L7`HW2g4[JdM2
 R7
 32
-Z17 !s110 1379610830
-Z18 !s108 1379610829.983000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont2b.vhd|
-Z20 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont2b.vhd|
+R8
+Z17 !s108 1379622079.611000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont2b.vhd|
+Z19 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont2b.vhd|
 R12
 R13
 !s100 ekzId4B16SSCU[PEeUBa@2
@@ -78,10 +78,10 @@ L16
 VkZbW9QJ`2ODEoE7a^KCL<0
 R7
 32
+R8
 R17
 R18
 R19
-R20
 R12
 R13
 !s100 bb:LVgREO8:R^=LLB]C=E1
@@ -92,17 +92,17 @@ R1
 R2
 R3
 R4
-Z21 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd
-Z22 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd
+Z20 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd
+Z21 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd
 l0
 L5
 VIgeOkQFn:0YR5TdLGW>jl0
 R7
 32
-Z23 !s110 1379610831
-Z24 !s108 1379610831.036000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd|
-Z26 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd|
+R8
+Z22 !s108 1379622079.886000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd|
+Z24 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4b.vhd|
 R12
 R13
 !s100 LXJk<`OnN@PUc5_W=o1X_2
@@ -117,52 +117,52 @@ L16
 VnK1bgz6?>NJS9@ThNj;De2
 R7
 32
+R8
+R22
 R23
 R24
-R25
-R26
 R12
 R13
 !s100 ^ae0lgM5a5;TFdl=fP4>f0
 !i10b 1
 Econt4bcd
-Z27 w1379610522
+Z25 w1379621853
 R1
 R2
 R3
 R4
-Z28 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd
-Z29 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd
+Z26 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd
+Z27 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd
 l0
 L5
-V`57hQmH8CYWZInShc4dAM0
+V[kJ<SS822FF1WYI8]^bTh0
 R7
 32
-Z30 !s110 1379610862
-Z31 !s108 1379610862.127000
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd|
-Z33 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd|
+Z28 !s110 1379622080
+Z29 !s108 1379622080.196000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd|
+Z31 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/cont4BCD.vhd|
 R12
 R13
-!s100 KMm5zI]4NT7f`CHP0ZY4G3
+!s100 l@;foV5fHjPeOmzAA>nb@0
 !i10b 1
 Aarq_cont4bcd
 R1
 R2
 R3
-DEx4 work 8 cont4bcd 0 22 `57hQmH8CYWZInShc4dAM0
-l18
-L16
-V]7Qa?;H>SIcg<`TQO^XfQ0
+DEx4 work 8 cont4bcd 0 22 [kJ<SS822FF1WYI8]^bTh0
+l21
+L19
+Vo^e:453blSi0c4Ag4Qdlm3
 R7
 32
+R28
+R29
 R30
 R31
-R32
-R33
 R12
 R13
-!s100 T5C@5R:bb2:7nYBKS:Wlh3
+!s100 R=U@V9k0<h=oz`g:b1[Ce1
 !i10b 1
 Econtbcd
 R14
@@ -170,17 +170,17 @@ R1
 R2
 R3
 R4
-Z34 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd
-Z35 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd
+Z32 8C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\contBCD.vhd
+Z33 FC:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\contBCD.vhd
 l0
 L5
 V5hEzQLC2m=PXESm`i;ENj1
 R7
 32
-Z36 !s110 1379610832
-Z37 !s108 1379610832.481000
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd|
-Z39 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/contBCD.vhd|
+R28
+Z34 !s108 1379622080.527000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\contBCD.vhd|
+Z36 !s107 C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\contBCD.vhd|
 R12
 R13
 !s100 n]lgg[zfl4j>BFKK1e3:Y0
@@ -195,31 +195,31 @@ L16
 VZDGRd8kz?75FM[Pnid_ln2
 R7
 32
+R28
+R34
+R35
 R36
-R37
-R38
-R39
 R12
 R13
 !s100 fWkUEm6M2HG=;nM8^RWiE1
 !i10b 1
 Edispctrl
-Z40 w1379009278
+Z37 w1379009278
 R1
 R2
 R3
 R4
-Z41 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd
-Z42 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd
+Z38 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd
+Z39 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd
 l0
 L5
 Vz5_SOWNaeHCW]>?VXe7LQ1
 R7
 32
-Z43 !s110 1379610833
-Z44 !s108 1379610833.090000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd|
-Z46 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd|
+R28
+Z40 !s108 1379622080.802000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd|
+Z42 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/displayCtrl.vhd|
 R12
 R13
 !s100 VXD`k2AK3;meNfCFlg]Z51
@@ -234,31 +234,31 @@ L14
 V_?A>VbkhnQ2Q;55iPR2F70
 R7
 32
-R43
-R44
-R45
-R46
+R28
+R40
+R41
+R42
 R12
 R13
 !s100 j;RG8RSCfKGBL@7:UKML10
 !i10b 1
 Edisplaycontroller
-Z47 w1379610897
+Z43 w1379610897
 R1
 R2
 R3
 R4
-Z48 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd
-Z49 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd
+Z44 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd
+Z45 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd
 l0
 L5
 VaV8Sl@@_j0dnUZn_?ff3U2
 R7
 32
-Z50 !s110 1379610902
-Z51 !s108 1379610902.112000
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd|
-Z53 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd|
+Z46 !s110 1379622081
+Z47 !s108 1379622081.715000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd|
+Z49 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DisplayController.vhd|
 R12
 R13
 !s100 55Vi91MW97NJT3R4nbX]]3
@@ -271,33 +271,33 @@ DEx4 work 17 displaycontroller 0 22 aV8Sl@@_j0dnUZn_?ff3U2
 l74
 L20
 VL]KTWa>Om@h96dTjCoe=O3
+!s100 Oc1Z2gV;Zi?84Lj19D_eQ2
 R7
 32
-R50
-R51
-R52
-R53
+R46
+R47
+R48
+R49
 R12
 R13
-!s100 Oc1Z2gV;Zi?84Lj19D_eQ2
 !i10b 1
 Edispselect
-Z54 w1379014746
+Z50 w1379014746
 R1
 R2
 R3
 R4
-Z55 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd
-Z56 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd
+Z51 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd
+Z52 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd
 l0
 L5
 VmSdD]UVH_:7A;a2kHiA8f0
 R7
 32
-Z57 !s110 1379610834
-Z58 !s108 1379610834.782000
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd|
-Z60 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd|
+R46
+Z53 !s108 1379622081.531000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd|
+Z55 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/DispSelect.vhd|
 R12
 R13
 !s100 fW992V1Hg9lCYbic:zS<R1
@@ -312,10 +312,10 @@ L13
 V61g`[6HCXO1CPbW59_k4P1
 R7
 32
-R57
-R58
-R59
-R60
+R46
+R53
+R54
+R55
 R12
 R13
 !s100 I^Q?1;GM;7Wm;Th_;8TM30
@@ -326,17 +326,17 @@ R1
 R2
 R3
 R4
-Z61 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd
-Z62 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd
+Z56 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd
+Z57 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd
 l0
 L6
 VA:8Jhj1db]DG]>]PE[1d=1
 R7
 32
-R43
-Z63 !s108 1379610833.517000
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd|
-Z65 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd|
+R46
+Z58 !s108 1379622081.077000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd|
+Z60 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/FFD.vhd|
 R12
 R13
 !s100 nj:1jlad0bH]YJaXOg^Mk3
@@ -351,70 +351,70 @@ L16
 V3^9jeBn=^locYMfXA9C[<2
 R7
 32
-R43
-R63
-R64
-R65
+R46
+R58
+R59
+R60
 R12
 R13
 !s100 h?U=PEA1g]dlb0NJ>goFQ1
 !i10b 1
 Efpga
-Z66 w1379613788
+Z61 w1379622066
 R1
 R2
 R3
 R4
-Z67 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd
-Z68 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd
+Z62 8C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\fpga.vhd
+Z63 FC:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\fpga.vhd
 l0
 L5
 Vz^a6JE[eNzVo>Ok03NUXY2
 !s100 WB2X1em@i6LPddoUD0DIV0
 R7
 32
-Z69 !s110 1379613790
+Z64 !s110 1379622082
 !i10b 1
-Z70 !s108 1379613790.435000
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd|
-Z72 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/fpga.vhd|
+Z65 !s108 1379622081.939000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\fpga.vhd|
+Z67 !s107 C:\Users\Tomas\Facultad\Sistemas Digitales\sisdig\tp1\fpga.vhd|
 R12
 R13
 Aarq_fpga
 R1
 R2
 R3
-Z73 DEx4 work 4 fpga 0 22 z^a6JE[eNzVo>Ok03NUXY2
-l55
+Z68 DEx4 work 4 fpga 0 22 z^a6JE[eNzVo>Ok03NUXY2
+l58
 L16
-Z74 VL7mi7fP0ChzTIib5Rn7mz2
-Z75 !s100 AiVi0kdB9`I[7cbjG<W9z0
+V:oUbSo01kN@i:N9B:L<jz3
+!s100 @7OilL_1eWhMPYcoEb?3N2
 R7
 32
-R69
+R64
 !i10b 1
-R70
-R71
-R72
+R65
+R66
+R67
 R12
 R13
 Egenenable
-Z76 w1379011366
+Z69 w1379011366
 R1
 R2
 R3
 R4
-Z77 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd
-Z78 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd
+Z70 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd
+Z71 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd
 l0
 L5
 VIB>C6QViPb9lz:HiVa5_m3
 R7
 32
-Z79 !s110 1379610827
-Z80 !s108 1379610827.258000
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd|
-Z82 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd|
+R8
+Z72 !s108 1379622079.057000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd|
+Z74 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/GenEnable.vhd|
 R12
 R13
 !s100 JCk3_32=;CB;6zDjm?nRh1
@@ -429,31 +429,31 @@ L17
 V4F6ClGH28FHIDBIN;I3nF1
 R7
 32
-R79
-R80
-R81
-R82
+R8
+R72
+R73
+R74
 R12
 R13
 !s100 ]ZmAcMgd3jfcdDIe2HZzZ0
 !i10b 1
 Emux
-Z83 w1379012709
+Z75 w1379012709
 R1
 R2
 R3
 R4
-Z84 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd
-Z85 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd
+Z76 8C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd
+Z77 FC:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd
 l0
 L5
 V7[ZUjg2]kQi?^RZYhRHPK0
 R7
 32
-R57
-Z86 !s108 1379610833.944000
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd|
-Z88 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd|
+R46
+Z78 !s108 1379622081.329000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd|
+Z80 !s107 C:/Users/Tomas/Facultad/Sistemas Digitales/sisdig/tp1/mux.vhd|
 R12
 R13
 !s100 9l_A2iCf_IJA0;>ET_ocg1
@@ -468,10 +468,10 @@ L18
 VHW^kKjAPnBkdW6CJ<2Pg^2
 R7
 32
-R57
-R86
-R87
-R88
+R46
+R78
+R79
+R80
 R12
 R13
 !s100 ZC<`[8PRcLXKUcB<lcZRR3
@@ -488,10 +488,10 @@ L44
 V>C2I;:@eMiUT1Rlo[>[6H0
 R7
 32
+R8
 R17
 R18
 R19
-R20
 R12
 R13
 !s100 PP>;4:^iUm51_FO@d=zdn1
@@ -505,10 +505,10 @@ L47
 VeiXFcn:DYVMY7P=Jhj1GX2
 R7
 32
+R8
 R17
 R18
 R19
-R20
 R12
 R13
 !s100 R[0TSOjzNlQ@[IXLDA5Kj0
@@ -518,17 +518,17 @@ R14
 R2
 R3
 R4
+R20
 R21
-R22
 l0
 L47
 Vl`8F2X@0?BShlHf2R4NPJ0
 R7
 32
+R28
+R22
 R23
 R24
-R25
-R26
 R12
 R13
 !s100 ;GUM3EP@o2^8WeCQ:[BJ72
@@ -542,67 +542,67 @@ L50
 VOYL4XhH8:`2U1nZ2I]WlS2
 R7
 32
+R28
+R22
 R23
 R24
-R25
-R26
 R12
 R13
 !s100 Vm4km`hMT;?FD2RA[DnVT3
 !i10b 1
 Etestcont4bcd
-R27
+R25
 R2
 R3
 R4
-R28
-R29
+R26
+R27
 l0
-L39
-V3llk4@XA?o4BHcPF>il0@3
+L57
+VF<i=1?ogRYR5M35`=DEgR1
 R7
 32
+R28
+R29
 R30
 R31
-R32
-R33
 R12
 R13
-!s100 >BC_hGklimGGKC62OaV<10
+!s100 k8Hk3iR7`ol2T?LnYZ4Yi2
 !i10b 1
 Atest_cont4bcd
 R2
 R3
-DEx4 work 12 testcont4bcd 0 22 3llk4@XA?o4BHcPF>il0@3
-l55
-L42
-Vc9RQ`gJUk8V>n`H:=2[4j1
+DEx4 work 12 testcont4bcd 0 22 F<i=1?ogRYR5M35`=DEgR1
+l76
+L60
+VCe[C1zDHFmjQ]kj;:bfH]0
 R7
 32
+R28
+R29
 R30
 R31
-R32
-R33
 R12
 R13
-!s100 X9AP@DIb7chF1Weh^17Y33
+!s100 ]SB1;<325KJoVA?Z0cc572
 !i10b 1
 Etestcontbcd
 R14
 R2
 R3
 R4
-R34
-R35
+R32
+R33
 l0
 L42
 Vig2<5a9VbDR>U4PV@fFAB2
 R7
 32
+R28
+R34
+R35
 R36
-R37
-R38
-R39
 R12
 R13
 !s100 EfLN1lA<Jdl^c=?7lMcQB3
@@ -616,30 +616,30 @@ L45
 V[;VC>9_f8TXgUXN:a9YY[0
 R7
 32
+R28
+R34
+R35
 R36
-R37
-R38
-R39
 R12
 R13
 !s100 Yc]`3IH2^aBlC::NOYiO:2
 !i10b 1
 Etestdispctrl
-R40
+R37
 R2
 R3
 R4
-R41
-R42
+R38
+R39
 l0
 L38
 VU>WCXVS7nVSMb^`UNfd`K3
 R7
 32
-R43
-R44
-R45
-R46
+R28
+R40
+R41
+R42
 R12
 R13
 !s100 jWae3AWEO2S?:ndc`;^Z40
@@ -653,30 +653,30 @@ L41
 V7aSOGzB:9k^S:I7[F6JIP3
 R7
 32
-R43
-R44
-R45
-R46
+R28
+R40
+R41
+R42
 R12
 R13
 !s100 nU[U<@[ZggDKflFBz`Ach1
 !i10b 1
 Etestdisplaycontroller
-R47
+R43
 R2
 R3
 R4
-R48
-R49
+R44
+R45
 l0
 L92
 VhDmJTQP`UNbNzB]D]_8H01
 R7
 32
-R50
-R51
-R52
-R53
+R46
+R47
+R48
+R49
 R12
 R13
 !s100 9X3TodlU>UgfmMUSUBgoj3
@@ -688,15 +688,15 @@ DEx4 work 21 testdisplaycontroller 0 22 hDmJTQP`UNbNzB]D]_8H01
 l114
 L95
 VnAmoSZXE=HFgn``jE=`F>2
+!s100 9>04a33E`UN7g?imob^fZ0
 R7
 32
-R50
-R51
-R52
-R53
+R46
+R47
+R48
+R49
 R12
 R13
-!s100 9>04a33E`UN7g?imob^fZ0
 !i10b 1
 Etestffd
 R14
@@ -704,17 +704,17 @@ R1
 R2
 R3
 R4
-R61
-R62
+R56
+R57
 l0
 L37
 V3oOGIn]H7j`=79CM>DSHg3
 R7
 32
-R43
-R63
-R64
-R65
+R46
+R58
+R59
+R60
 R12
 R13
 !s100 j[jaR>F[@8YX21J<Zz[HQ3
@@ -729,67 +729,67 @@ L40
 VS]TMd<;O]E@87k5jLmk[E2
 R7
 32
-R43
-R63
-R64
-R65
+R46
+R58
+R59
+R60
 R12
 R13
 !s100 dS0ESR:fRhMDV:6]<38HB0
 !i10b 1
 Etestfpga
-R66
+R61
 R2
 R3
 R4
-R67
-R68
+R62
+R63
 l0
-L69
-VPf:gSe6X[D_ZEFbzI9aI01
-!s100 o>o[MW6Pn@3;S>@L``:=j3
+L68
+VbOhcaGQFPd7^?3nV^czN_0
+!s100 iTaBXA[Um0m6[WN;nQDz[3
 R7
 32
-R69
+R64
 !i10b 1
-R70
-R71
-R72
+R65
+R66
+R67
 R12
 R13
 Atest_fpga
 R2
 R3
-Z89 DEx4 work 8 testfpga 0 22 Pf:gSe6X[D_ZEFbzI9aI01
-l86
-L72
-VUSz5?UmS;`?=V6[_m0Lbm2
-!s100 VNfP@NeSKGO97Ic?m^Y<:3
+DEx4 work 8 testfpga 0 22 bOhcaGQFPd7^?3nV^czN_0
+l85
+L71
+VRlD>S4WmHTo^gYNlQUAHN2
+!s100 i]Glj7LFYze3mgjGXznXX0
 R7
 32
-R69
+R64
 !i10b 1
-R70
-R71
-R72
+R65
+R66
+R67
 R12
 R13
 Etestgenenable
-R76
+R69
 R2
 R3
 R4
-R77
-R78
+R70
+R71
 l0
 L44
 VW<BE;Yi5MYk8zOnde@[0=3
 R7
 32
-R79
-R80
-R81
-R82
+R8
+R72
+R73
+R74
 R12
 R13
 !s100 Qz1Q19RJk[K9a63lj?k2V0
@@ -803,30 +803,30 @@ L47
 VNR3>3AVZdIKOf@IRdZ0T82
 R7
 32
-R79
-R80
-R81
-R82
+R8
+R72
+R73
+R74
 R12
 R13
 !s100 2hB0iimSzilU5]F15`D?`2
 !i10b 1
 Etestmux
-R83
+R75
 R2
 R3
 R4
-R84
-R85
+R76
+R77
 l0
 L36
 V@PUo4flANXMIl3:02PG;c2
 R7
 32
-R57
-R86
-R87
-R88
+R46
+R78
+R79
+R80
 R12
 R13
 !s100 PTMgVFUZEfBVZgI@[_b[42
@@ -840,10 +840,10 @@ L39
 V3l^iZ>9nIA]9Z7<RWe7Q:3
 R7
 32
-R57
-R86
-R87
-R88
+R46
+R78
+R79
+R80
 R12
 R13
 !s100 oOLFM;QTAS]=?II@S`U<W2
