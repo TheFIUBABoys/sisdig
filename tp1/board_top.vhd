@@ -49,12 +49,23 @@ end entity Board_Top;
 
 
 architecture RTL of Board_Top is
+component FPGA is
+  generic(nanosecs, cant: integer);
+  port(
+	clk 	: 	in std_logic;
+	rst		: 	in std_logic;
+	
+	selector			:	out std_logic_vector(3 downto 0);
+	a,b,c,d,e,f,g,dp	: 	out std_logic
+  );
+end component FPGA;
 -- SENIALES UTILIZADAS:
 signal clk_i : std_logic:='0';                     -- reloj del sistema
 begin
 
 -- Ejemplo de asignacion de la entrada del cristal a una senial que defini como "clk_i".
-   clk_i <= xtal_i;     
-
+	clk_i <= xtal_i;     
+	-- 50000000 para que cuente segundos y 50000 para que la frecuencia de cambio de digito el display sea 1khz
+	instFPGA: FPGA generic map(50000000,50000) port map(clk_i,buttons_i(0),s3s_anodes_o,s3s_segment_a_o,s3s_segment_b_os3s_segment_c_o,s3s_segment_d_o,s3s_segment_e_o,s3s_segment_f_o,s3s_segment_g_o,s3s_segment_dp_o);
 end architecture RTL; -- Entity: Board_Top
 
