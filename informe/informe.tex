@@ -52,9 +52,19 @@ Como vemos, la arquitectura esta compuesta por tres bloques. A continuación se 
 			\caption{Diagrama de bloque de la arquitectura utilizada para el controlador de display}
 			\label{fig:diag_contr}
 		\end{figure}
+	Como vemos en el diagrama, la arquitectura esta compuesta por 5 componentes.
+		\subsubsection{Multiplexor}
+		Su función es seleccionar cual de los dígitos de entrada (en formato BCD) se imprimirá en el display seleccionado. 
+		\subsubsection{Función lógica de 4 entradas y 8 salidas}
+		Se encarga de mapear el dígito de entrada a los segmentos correspondientes para su representación.
+		\subsubsection{Función lógica de 2 entradas y 4 salidas}
+		Es la encargada de seleccionar cual de los dígitos del display debe estar encendido según el valor del contador en ese momento.
+		\subsubsection{Contador de 2 bits}
+		Es el encargado de ir conmutando en ánodo para mantener los cuatro caracteres del display encendidos.						\subsubsection{Generador de enable}
+		Genera una señal de enable para que la conmutación de ánodos no sea muy rápida. (aprox. 1kHz)
 
 \section{Conclusiones}
-Conclusion
+
 
 
 

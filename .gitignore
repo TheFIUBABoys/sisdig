@@ -3,3 +3,13 @@ tp1/work/_lib1_6.qdb
 tp1/work/_lib1_6.qpg
 tp1/work/_lib1_7.qdb
 tp1/work/_lib1_7.qpg
+
+#############
+## PdfLatex
+#############
+
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
