@@ -58,10 +58,28 @@ Como vemos, la arquitectura esta compuesta por tres bloques. A continuación se 
 		\subsubsection{Función lógica de 4 entradas y 8 salidas}
 		Se encarga de mapear el dígito de entrada a los segmentos correspondientes para su representación.
 		\subsubsection{Función lógica de 2 entradas y 4 salidas}
-		Es la encargada de seleccionar cual de los dígitos del display debe estar encendido según el valor del contador en ese momento.
+		Es la encargada de seleccionar cual de los dígitos del display debe estar encendido según el valor del contador en ese momento. 
 		\subsubsection{Contador de 2 bits}
-		Es el encargado de ir conmutando en ánodo para mantener los cuatro caracteres del display encendidos.						\subsubsection{Generador de enable}
-		Genera una señal de enable para que la conmutación de ánodos no sea muy rápida. (aprox. 1kHz)
+		Es el encargado de ir conmutando en ánodo para mantener los cuatro caracteres del display encendidos.					\subsubsection{Generador de enable}
+		Genera una señal de enable para que la conmutación de ánodos no sea muy rápida. (aprox. 1kHz). Se utiliza el generador descripto en el primer item de esta sección.
+	\subsection{Contador}
+	El contador se incrementa en cada pulso del generador de enable. Contará en formato BCD y tendrá una salida de 4 bits por cada dígito.
+
+\section{Simulación}
+A continuación se mostraran algunas pantallas que resultaron de la simulación de los bloques propuestos. Las simulaciones fueron realizadas utilizando el programa ModelSIM.
+	\subsection{Simulación del Generador de Enable}
+	Para observar facilmente los resultados, la prueba del generador se realizo utilizando 2 valores a contar. Se configuro un generador para que cada 5 pulsos de reloj mande un pulso de enable y otro para que lo haga cada 10.
+	Se observó la siguiente simulación:
+	 \begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{sim-genen.png}
+		\caption{Captura de pantalla realizada para la simulación del generador de enable}
+		\label{fig:diag_contr}
+	\end{figure}
+		
+	\subsection{Simulacion del Controlado de Display}
+	Las pruebas para este componente fueron las mas complejas, debido a la amplia variedad de entradas y salidas que se presentan. Por un lado, se tuvieron en cuenta las salidas que habilitan que display se encenderá, observando su normal comportamiento. Por otro lado, se planteo la siguiente tabla para corroborar que las salidas de los segmentos sea correcta:
+	
 
 \section{Conclusiones}
 
