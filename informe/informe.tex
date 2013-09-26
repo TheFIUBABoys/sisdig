@@ -7,7 +7,7 @@
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{verbatim}
-\usepackage[top=2cm, bottom=1.5cm, left=2.5cm, right=1cm]{geometry}
+\usepackage[top=2cm, bottom=1.5cm, left=2cm, right=1.5cm]{geometry}
 \usepackage{pdfpages}
 \usepackage{enumitem}
 \usepackage{pdfpages}
@@ -68,19 +68,20 @@ Como vemos, la arquitectura esta compuesta por tres bloques. A continuación se 
 \section{Simulación}
 A continuación se mostraran algunas pantallas que resultaron de la simulación de los bloques propuestos. Las simulaciones fueron realizadas utilizando el programa ModelSIM.
 	\subsection{Simulación del Generador de Enable}
-	Para observar facilmente los resultados, la prueba del generador se realizo utilizando 2 valores a contar. Se configuro un generador para que cada 5 pulsos de reloj mande un pulso de enable y otro para que lo haga cada 10.
+	Para observar fácilmente los resultados, la prueba del generador se realizo utilizando 2 valores a contar. Se configuro un generador para que cada 5 pulsos de reloj mande un pulso de enable y otro para que lo haga cada 10.
 	Se observó la siguiente simulación:
 	 \begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.5]{sim-genen.png}
 		\caption{Captura de pantalla realizada para la simulación del generador de enable}
-		\label{fig:diag_contr}
+		\label{fig:sim_gen}
 	\end{figure}
 		
-	\subsection{Simulacion del Controlado de Display}
+	\subsection{Simulación del Controlado de Display}
 	Las pruebas para este componente fueron las mas complejas, debido a la amplia variedad de entradas y salidas que se presentan. Por un lado, se tuvieron en cuenta las salidas que habilitan que display se encenderá, observando su normal comportamiento. Por otro lado, se planteo la siguiente tabla para corroborar que las salidas de los segmentos sea correcta:
 		\begin{center}
 			\begin{tabular}{|c|c|}
+				\hline
 				0 & 00000011 \\ \hline
 				1 & 10011111 \\ \hline
 				2 & 00100101 \\ \hline
@@ -93,9 +94,19 @@ A continuación se mostraran algunas pantallas que resultaron de la simulación 
 				9 & 00011001 \\ \hline
 			\end{tabular}
 		\end{center}
-
-\section{Conclusiones}
-
+	\subsection{Simulación del contador BCD de 4 dígitos}
+	Esta simulación es la más simple de todas y en ella se ve con claridad el correcto funcionamiento del componente.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{sim-cont.png}
+		\caption{Captura de pantalla realizada para la segunda simulación de el controlador de display}
+		\label{fig:sim_cont}
+	\end{figure}
+	
+\section{Implementación}
+La implementación del trabajo práctico se realizo utilizando el kit Spartan 3E-500 FG320 de Xilinx.  \\
+A continuación se muestra el resumen de la síntesis.
+	
 
 
 
